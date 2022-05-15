@@ -234,6 +234,28 @@ function Deposit(){
                     <span className="hide-menu">Withdraw</span>
                   </a>
                 </li>
+                <li className="sidebar-item">
+                  {" "}
+                  <a
+                    className="sidebar-link waves-effect waves-dark sidebar-link"
+                    href="#"
+                    aria-expanded="false"
+                  >
+                    <i className="mdi mdi-cloud-upload" />
+                    <span className="hide-menu">Account</span>
+                  </a>
+                </li>
+                <li className="sidebar-item">
+                  {" "}
+                  <a
+                    className="sidebar-link waves-effect waves-dark sidebar-link"
+                    href="#"
+                    aria-expanded="false"
+                  >
+                    <i className="mdi mdi-cloud-upload" />
+                    <span className="hide-menu">Settings</span>
+                  </a>
+                </li>
             
               </ul>
             </nav>
@@ -301,27 +323,31 @@ function Deposit(){
                       <div className="col-md-4">
                         <div className="card text-center h-20">
                           <div className="card-block">
-                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Josef Coin  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
+                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Coin 1  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
                          
                             
                           </div>
-                          <div className="row px-2 no-gutters">
-                            <div className="col-6">
+                          <div className="row px-2 no-gutters" >
+                            <div className="col-6" >
+                              
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"19%"}}
                               >
                                                          <span style={{fontFamily: 'Helvetica'}}> 4</span>
 
                               </h3>
                             </div>
                           </div>
+
                         </div>
                       </div>
+
+
                       <div className="col-md-4">
                         <div className="card text-center h-20">
                           <div className="card-block">
-                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Miguel Coin  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
+                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}> Coin 2  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
                          
                             
                           </div>
@@ -329,7 +355,7 @@ function Deposit(){
                             <div className="col-6">
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"19%" }}
                               >
                                                            <span style={{fontFamily: 'Helvetica'}}> 4</span>
 
@@ -341,7 +367,7 @@ function Deposit(){
                       <div className="col-md-4">
                         <div className="card text-center h-20">
                           <div className="card-block">
-                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Josef 2 Coin  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
+                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}> Coin 3  <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
                          
                             
                           </div>
@@ -349,7 +375,7 @@ function Deposit(){
                             <div className="col-6">
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"19%" }}
                               >
                               <span style={{fontFamily: 'Helvetica'}}> 4</span>
                               </h3>
@@ -358,7 +384,44 @@ function Deposit(){
                         </div>
                       </div>
                       
-                 
+                      <div className="col-md-4">
+                        <div className="card text-center h-20">
+                          <div className="card-block">
+                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Coin  4 <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
+                         
+                            
+                          </div>
+                          <div className="row px-2 no-gutters">
+                            <div className="col-6">
+                              <h3
+                                className="card card-block border-top-0 border-left-0 border-bottom-0"
+                                style={{ width: "177%",marginLeft:"19%" }}
+                              >
+                              <span style={{fontFamily: 'Helvetica'}}> 4</span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-4">
+                        <div className="card text-center h-20">
+                          <div className="card-block">
+                            <h4 className="card-title" style={{fontFamily: 'Helvetica'}}>Coin  5 <span class="mdi mdi-coins"  style={{fontSize: '1em'}}></span>     </h4>
+                         
+                            
+                          </div>
+                          <div className="row px-2 no-gutters">
+                            <div className="col-6">
+                              <h3
+                                className="card card-block border-top-0 border-left-0 border-bottom-0"
+                                style={{ width: "177%",marginLeft:"19%" }}
+                              >
+                              <span style={{fontFamily: 'Helvetica'}}> 4</span>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
 
@@ -373,17 +436,16 @@ function Deposit(){
                       
 
               </div>
+              
               <div className="col-md-4">
                 <div className="card">
                   <div className="card-body">
-                    <h4 className="card-title">Feeds</h4>
+                    <h4 className="card-title">PHPC coins</h4>
                     <div className="feed-widget">
                       <ul className="list-style-none feed-body m-0 p-b-20">
                         <li className="feed-item">
-                          <div className="feed-icon bg-info">
-                            <i className="far fa-bell" />
-                          </div>{" "}
-                          2 pending requests.{" "}
+                        
+                         <span style={{fontSize:"1.5em",marginLeft:"28%"}}>PHPC  1000.00</span>
                           <span className="ms-auto font-12 text-muted">
                             In total
                           </span>
@@ -415,7 +477,7 @@ function Deposit(){
                           className="card-title"
                           style={{ textAlign: "left" }}
                         >
-                          Your request/s
+                          Your Activities
                         </h4>
                      
                       </div>

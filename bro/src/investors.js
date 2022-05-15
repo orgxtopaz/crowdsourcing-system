@@ -91,9 +91,9 @@ function Investor() {
         {/* ============================================================== */}
         {/* Topbar header - style you can find in pages.scss */}
         {/* ============================================================== */}
-        <header className="topbar" data-navbarbg="skin5">
-          <nav className="navbar top-navbar navbar-expand-md navbar-dark">
-            <div className="navbar-header" data-logobg="skin5">
+        <header className="topbar" data-navbarbg="skin5" style={{backgroundColor:"#0b2972"}}>
+          <nav className="navbar top-navbar navbar-expand-md navbar-dark" style={{backgroundColor:"#0b2972"}}>
+            <div className="navbar-header" data-logobg="skin5" style={{backgroundColor:"#0b2972"}}>
               {/* ============================================================== */}
               {/* Logo */}
               {/* ============================================================== */}
@@ -301,7 +301,7 @@ function Investor() {
                         <tr className="bg-light">
                           <th className="border-top-0">Username</th>
                           <th className="border-top-0">Email Address</th>
-                          <th className="border-top-0">Total Balance</th>
+                          <th className="border-top-0">Total PHPC Balance</th>
                     
                           <th className="border-top-0">Action</th>
                         </tr>

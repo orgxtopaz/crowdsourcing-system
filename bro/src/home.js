@@ -294,7 +294,7 @@ function Home() {
                       <div className="col-md-4">
                         <div className="card text-center h-100">
                           <div className="card-block">
-                            <h4 className="card-title">Total Balance</h4>
+                            <h4 className="card-title">Total PHPC Balance</h4>
                             
                             <h2 style={{fontSize: '5em'}}>
                               <i className="mdi mdi-cash-usd"  />
@@ -304,7 +304,7 @@ function Home() {
                             <div className="col-6">
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"24%" }}
                               >
                                 4
                               </h3>
@@ -325,7 +325,7 @@ function Home() {
                             <div className="col-6">
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"24%" }}
                               >
                                 1
                               </h3>
@@ -345,7 +345,7 @@ function Home() {
                             <div className="col-6">
                               <h3
                                 className="card card-block border-top-0 border-left-0 border-bottom-0"
-                                style={{ width: "177%" }}
+                                style={{ width: "177%",marginLeft:"24%" }}
                               >
                                 ₱ 300000
                               </h3>
